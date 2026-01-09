@@ -30,7 +30,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <span className="text-2xl font-bold text-purple-700">CVking</span>
+              <span className="text-2xl font-bold text-orange-700">CVking</span>
             </div>
             <p className="text-sm leading-relaxed text-gray-600 max-w-xs">
               Nền tảng hệ thống hàng đầu Việt Nam, cung cấp các dịch vụ chất
@@ -47,7 +47,7 @@ export function Footer() {
                   key={i}
                   size="icon"
                   variant="ghost"
-                  className="text-gray-500 hover:text-purple-600 hover:bg-purple-200/50 transition-all rounded-full"
+                  className="text-gray-500 hover:text-orange-600 hover:bg-orange-200/50 transition-all rounded-full"
                   asChild
                 >
                   <Link href={href} target="_blank" rel="noopener">
@@ -60,7 +60,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-purple-700">
+            <h3 className="mb-4 text-lg font-semibold text-orange-700">
               Liên kết nhanh
             </h3>
             <ul className="space-y-2">
@@ -74,7 +74,7 @@ export function Footer() {
                 <li key={item}>
                   <Link
                     href="#"
-                    className="text-gray-600 text-sm hover:text-purple-600 transition-colors duration-200 inline-block"
+                    className="text-gray-600 text-sm hover:text-orange-600 transition-colors duration-200 inline-block"
                   >
                     {item}
                   </Link>
@@ -85,7 +85,7 @@ export function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-purple-700">
+            <h3 className="mb-4 text-lg font-semibold text-orange-700">
               Danh mục
             </h3>
             <ul className="space-y-2">
@@ -99,7 +99,7 @@ export function Footer() {
                 <li key={cat}>
                   <Link
                     href="#"
-                    className="text-gray-600 text-sm hover:text-purple-600 transition-colors duration-200 inline-block"
+                    className="text-gray-600 text-sm hover:text-orange-600 transition-colors duration-200 inline-block"
                   >
                     {cat}
                   </Link>
@@ -110,30 +110,30 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-purple-700">
+            <h3 className="mb-4 text-lg font-semibold text-orange-700">
               Liên hệ
             </h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-purple-600" />
+                <Phone className="h-5 w-5 text-orange-600" />
                 <Link
                   href="tel:01010101"
-                  className="text-gray-700 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-700 hover:text-orange-600 transition-colors text-sm"
                 >
                   010-101-01010
                 </Link>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-purple-600" />
+                <Mail className="h-5 w-5 text-orange-600" />
                 <Link
                   href="mailto:support@blog.vn"
-                  className="text-gray-700 hover:text-purple-600 transition-colors text-sm"
+                  className="text-gray-700 hover:text-orange-600 transition-colors text-sm"
                 >
                   support@blog.vn
                 </Link>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-purple-600 mt-0.5" />
+                <MapPin className="h-5 w-5 text-orange-600 mt-0.5" />
                 <span className="text-sm text-gray-600 leading-relaxed flex-1">
                   33 Xô Viết Nghệ Tĩnh, Hòa Cường, Hải Châu, Đà Nẵng
                 </span>
@@ -143,11 +143,11 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 border-t border-purple-200 pt-6">
+        <div className="mt-12 border-t border-orange-200 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 text-sm md:flex-row">
             <p className="text-gray-600">
               © {new Date().getFullYear()}{" "}
-              <span className="font-medium text-purple-700">Blog</span>. Tất cả
+              <span className="font-medium text-orange-700">Blog</span>. Tất cả
               quyền được bảo lưu.
             </p>
             <div className="flex gap-5 text-gray-600">
@@ -156,7 +156,7 @@ export function Footer() {
                   <Link
                     key={item}
                     href="#"
-                    className="hover:text-purple-600 transition-colors duration-200"
+                    className="hover:text-orange-600 transition-colors duration-200"
                   >
                     {item}
                   </Link>

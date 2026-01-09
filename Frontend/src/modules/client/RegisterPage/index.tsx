@@ -23,10 +23,10 @@ export default function RegisterPage() {
         <div className="flex justify-center gap-2 md:justify-start">
           <Link
             href={ROUTES.HOME}
-            className="flex items-center gap-2 font-medium text-2xl text-purple-400"
+            className="flex items-center gap-2 font-medium text-2xl text-orange-400"
           >
-            <Crown className="size-6 text-purple-600" />
-            <span className="text-purple-600 text-xl font-bold">CVking</span>
+            <Crown className="size-6 text-orange-600" />
+            <span className="text-orange-600 text-xl font-bold">CVking</span>
           </Link>
         </div>
         <div className="flex flex-1 items-center justify-center">

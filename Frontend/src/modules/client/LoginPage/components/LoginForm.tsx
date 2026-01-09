@@ -90,7 +90,7 @@ export function LoginForm({
         )}
         {...props}
       >
-        <div className="animate-spin h-8 w-8 border-4 border-purple-600 border-t-transparent rounded-full" />
+        <div className="animate-spin h-8 w-8 border-4 border-orange-600 border-t-transparent rounded-full" />
         <p className="text-sm text-gray-600">Đang kiểm tra đăng nhập...</p>
       </div>
     );
@@ -100,7 +100,7 @@ export function LoginForm({
     <div className={cn("flex flex-col gap-8", className)} {...props}>
       {/* Header */}
       <div className="space-y-2 text-center md:text-left">
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
           Chào mừng trở lại
         </h1>
         <p className="text-sm text-gray-600">
@@ -118,7 +118,7 @@ export function LoginForm({
           placeholder="you@example.com"
           isRequired
           disabled={isPending}
-          className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+          className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
         />
 
         <TextField
@@ -131,7 +131,7 @@ export function LoginForm({
           isPassword
           type="password"
           disabled={isPending}
-          className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+          className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
         />
 
         {/* Submit Button */}
@@ -140,9 +140,9 @@ export function LoginForm({
           type="submit"
           className={cn(
             "w-full h-12 text-base font-medium",
-            "bg-purple-600 hover:bg-purple-700",
+            "bg-orange-600 hover:bg-orange-700",
             "active:scale-95 transition-all duration-200",
-            "shadow-lg hover:shadow-purple-600/25",
+            "shadow-lg hover:shadow-orange-600/25",
             "disabled:opacity-70 disabled:cursor-not-allowed",
             isPending && "opacity-80"
           )}
@@ -178,8 +178,8 @@ export function LoginForm({
           id="forget-password-link"
           href={"#"}
           className={cn(
-            "text-center text-sm font-medium text-purple-600",
-            "hover:text-purple-700 hover:underline underline-offset-4",
+            "text-center text-sm font-medium text-orange-600",
+            "hover:text-orange-700 hover:underline underline-offset-4",
             "transition-all duration-200 hover:scale-105 inline-block"
           )}
         >
@@ -204,8 +204,8 @@ export function LoginForm({
           id="register-link"
           href={ROUTES.REGISTER}
           className={cn(
-            "font-medium text-purple-600 underline underline-offset-4",
-            "hover:text-purple-700 hover:no-underline",
+            "font-medium text-orange-600 underline underline-offset-4",
+            "hover:text-orange-700 hover:no-underline",
             "transition-all duration-200 hover:scale-105 inline-block"
           )}
         >

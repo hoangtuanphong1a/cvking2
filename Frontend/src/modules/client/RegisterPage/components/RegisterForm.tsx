@@ -48,7 +48,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
     <div className={cn('flex flex-col gap-8', className)} {...props}>
       {/* Header */}
       <div className="space-y-2 text-center md:text-left">
-        <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent">
+        <h1 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
           Tạo tài khoản mới
         </h1>
         <p className="text-sm text-gray-600">Điền thông tin để bắt đầu hành trình học tập</p>
@@ -64,7 +64,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
             placeholder="VD: Minh"
             isRequired
             disabled={isPending}
-            className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+            className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
           />
           <TextField
             name="lastName"
@@ -73,7 +73,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
             placeholder="VD: Nguyễn"
             isRequired
             disabled={isPending}
-            className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+            className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
           />
         </div>
 
@@ -85,7 +85,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
           placeholder="you@example.com"
           isRequired
           disabled={isPending}
-          className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+          className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
         />
 
         <TextField
@@ -98,7 +98,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
           isPassword
           type="password"
           disabled={isPending}
-          className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+          className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
         />
 
         <TextField
@@ -110,7 +110,7 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
           isRequired
           isPassword
           disabled={isPending}
-          className="transition-all focus-within:ring-2 focus-within:ring-purple-500/20"
+          className="transition-all focus-within:ring-2 focus-within:ring-orange-500/20"
         />
 
         {/* Submit Button */}
@@ -119,9 +119,9 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
           type="submit"
           className={cn(
             'w-full h-12 text-base font-medium',
-            'bg-purple-600 hover:bg-purple-700',
+            'bg-orange-600 hover:bg-orange-700',
             'active:scale-95 transition-all duration-200',
-            'shadow-lg hover:shadow-purple-600/25',
+            'shadow-lg hover:shadow-orange-600/25',
             'disabled:opacity-70 disabled:cursor-not-allowed',
             isPending && 'opacity-80'
           )}
@@ -160,8 +160,8 @@ export function RegisterForm({ className, ...props }: React.ComponentProps<'div'
           id="login-link"
           href={ROUTES.LOGIN}
           className={cn(
-            'font-medium text-purple-600 underline underline-offset-4',
-            'hover:text-purple-700 hover:no-underline',
+            'font-medium text-orange-600 underline underline-offset-4',
+            'hover:text-orange-700 hover:no-underline',
             'transition-all duration-200 hover:scale-105 inline-block'
           )}
         >
